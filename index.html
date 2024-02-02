@@ -3,26 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="eset.css" />
     <title>Mi Primer Sitio Web</title>
   </head>
   <body>
     <header>
-      <h1>Jugueteria PLAYTIME</h1>
-      <h2>"Si no lo tenemos te lo traemos"</h2>
+      <div class="titulo">
+        <h1 id="principal">Jugueteria PLAYTIME</h1>
+        <h2>"Si no lo tenemos te lo traemos"</h2>
+      </div>
     </header>
     <hr />
     <main>
       <section>
-        <div>
-          <p>si quieres diversion, nuestros productos son la solucion</p>
-          <img src="Playtime.png" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            adipisci, quis, omnis iusto minus est aliquam quo a suscipit optio
-            laudantium odit eaque exercitationem. Id doloremque voluptatem
-            aperiam maiores minus.
-          </p>
+        <p>si quieres diversion, nuestros productos son la solucion</p>
+
+        <div class="imagen-container">
+          <div class="imagen">
+            <img src="Playtime.png" class="logo" />
+          </div>
+          <div class="imagen">
+            <img src="jugueteria.jpeg" class="logo" />
+          </div>
+          <div class="imagen">
+            <img src="juegueteria1.jpeg" class="logo" />
+          </div>
         </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          adipisci, quis, omnis iusto minus est aliquam quo a suscipit optio
+          laudantium odit eaque exercitationem. Id doloremque voluptatem aperiam
+          maiores minus.
+        </p>
+
         <hr />
         <div>
           <h2>Tenemos Variedad de Jugueteria</h2>
@@ -41,11 +55,9 @@
           <h2>Llamanos y llevamos tu pedido hasta la puerta de tu casa</h2>
           <p>(+502)55226699</p>
         </article>
-        <article>
-          <form action="">
-            <h2>
-              Si prefieres dejanos tu imformacion y nosotros te contactamos
-            </h2>
+        <div class="formulario">
+          <h2>Si prefieres dejanos tu informacion y nosotros te contactamos</h2>
+          <form>
             <label for="Nombre">NOMBRE: </label>
             <input
               type="text"
@@ -69,15 +81,15 @@
             <br />
             <button>Enviar</button>
           </form>
-        </article>
+        </div>
+        <hr />
+        <footer>
+          <p>siguenos en nuestras redes sociales</p>
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="">Youtube</a>
+        </footer>
       </section>
     </main>
-    <hr />
-    <footer>
-      <p>siguenos en nuestras redes sociales</p>
-      <a href="">Facebook</a>
-      <a href="">Instagram</a>
-      <a href="">Youtube</a>
-    </footer>
   </body>
 </html>
